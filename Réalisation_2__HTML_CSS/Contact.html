@@ -1,0 +1,50 @@
+<!doctype HTML>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>SuperMAM</title>
+        <link rel="stylesheet" href="Contact.css" >
+    </head>
+    <body>
+        <header>
+            <h1>Contact</h1>
+        
+            
+                <article>
+                    <h3>Vous avez des questions?</h3>
+                    <div>
+                        <p>Envoyez nous rapidement vos questions ou demandes depuis ce formulaire. Nous vous répondrons dans les plus brefs délais.</p>
+                    </div>
+                </article> 
+            </header>
+            <section>
+                <form method= "POST" action="monProgramme.php" id="conteiner">
+                    <div>
+                        <label for ="name">Prenom</label>
+                        <input type= "text" name= "name" value= "Votre Nom" size= "20" placeholder="nom" maxlength="20" id="ContactName" required/>
+                    </div>
+                    <div>
+                        <label for="email">E-mail</E-mail></label>
+                        <input type= "email" name= "email" value= "Votre adresse E-mail" size= "20" placeholder="E-mail" maxlength="20" id="ContactMail" required/>
+                    </div>
+                    <div>
+                        <label for= "Numero">Numero</label>
+                        <input type= "text" name= "Numero" value= "N° de téléphone" size= "20" placeholder="Numero" maxlength="20" id="ContactNumber"/>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea placeholder="votre message" name="message" cols="50" rows="20"></textarea>
+                    </div>
+                    <div><button> Envoyer </button>  <input type="reset" value="Annuler"></input></div>
+                </form>
+            </section>
+        <footer>
+                <ul>
+                    <li><a href="FilR.html">Accueil</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Politique de Confidentalité</a></li>
+                </ul>
+        </footer>
+    </body>
+</html>
