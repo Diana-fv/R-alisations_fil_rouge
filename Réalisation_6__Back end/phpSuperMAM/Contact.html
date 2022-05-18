@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SuperMAM_Contact</title>
+    <link href="./css/Contact.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>Contact</h1>
+
+            <h3>Vous avez des questions?</h3>
+                <p>Envoyez nous rapidement vos questions ou demandes depuis ce formulaire. Nous vous répondrons dans les
+                    plus brefs délais.</p>
+    </header>
+    
+    <script type="text/javascript" src="./views/js/index.js"></script>
+    <section>
+        <form method="POST" action="monProgramme.php" id="conteiner">
+            <div class="page">
+                <label for="name">Prenom</label>
+                <input type="text" name="name" value="Votre Nom" size="20" placeholder="nom" maxlength="20"
+                    id="ContactName" required />
+            </div>
+            <div class="page">
+                <label for="email">E-mail</E-mail></label>
+                <input type="email" name="email" value="Votre adresse E-mail" size="20" placeholder="E-mail" maxlength="20" id="ContactMail" required />
+            </div>
+            <div class="page">
+                <label for="Numero">Numero</label>
+                <input type="text" name="Numero" value="N° de téléphone" size="20" placeholder="Numero" maxlength="20" id="ContactNumber" />
+            </div>
+            <div class="page">
+                <label for="message">Message:</label>
+                <textarea placeholder="votre message" name="message" cols="50" rows="10" id="msg"></textarea>
+            </div class="page">
+            <div>
+                <button> Envoyer </button> <input type="reset" value="Annuler"></input>
+            </div>
+        </form>
+
+        <span class="map" id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.0333738234726!2d1.3386904157198996!3d43.52249676889025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeb70e6a05e139%3A0xd49dd3efd1a6fd6e!2s1%20Pl.%20de%20l&#39;%C3%89glise%2C%2031270%20Villeneuve-Tolosane!5e0!3m2!1sfr!2sfr!4v1642156266839!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <p style="color: red;" id="erreur"></p>
+
+      
+    </section>
+    <!-- Map-->
+   
+    <!-- footer-->
+    <footer>
+        <ul>
+            <li><a href="acc.html">Accueil</a></li>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">Politique de Confidentalité</a></li>
+        </ul>
+    </footer>
+    <script type="text/javascript"src="contact.js"></script>
+    
+</body>
+
+</html>
