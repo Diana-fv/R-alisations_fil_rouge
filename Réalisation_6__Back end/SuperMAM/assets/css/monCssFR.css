@@ -1,0 +1,145 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-attachment: local, fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  #title_home{
+    position: relative;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+  }
+  
+  #header_page_menu{
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+
+  }
+  
+  #about_page{
+    /*background-image:url("../images/img5.jpg");*/
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  #menu{
+    background-image:url("assets/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Lato', sans-serif;
+  }
+  #reviews{
+    /*background-image: url("../images/flower2.png");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #menu_description{
+    line-height: 2.5;
+    background-image:url("assets/img/background.jpg");
+  }
+  #background{
+    /*background-image:linear-gradient(to bottom,#fff, #fff8 ), url("../images/img1.jpg") ;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local, fixed;
+  }
+  
+  .card {
+    background-color: #fff;
+  }
+  
+  
+  nav:first-child{
+    position: relative;
+    display: flex;
+    justify-content: center;;
+    text-align: center;
+  
+  }
+  
+  nav ul:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: x-large;
+  }
+  .about_title {
+    background-attachment: scroll;
+    text-align: center;
+    font-family: Mongolian;
+    font-size: 36px;
+  }
+  
+  .paragraph-center, #footer {
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .hr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3px;
+  }
+  
+  .hr div{
+    width: 10%;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    padding: 8px 0 0 0;
+    margin: 8px;
+  }
+  
+  
+  #box_service_icone{
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    border-radius: 58%;
+  }
+  
+  .service_titre{
+    font-family: Mongolian;
+    font-size: 46px;
+  }
+  .calltoaction_titre{
+    font-family: Mongolian;
+    font-size: 56px;
+  }
+  .texte{
+    font-family: Courier, monospace;
+    font-size: 20px;
+    line-height: 30px;
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  #box_service_icone{
+    font-size: 36px;
+  }
+  
+  .parallax {
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
